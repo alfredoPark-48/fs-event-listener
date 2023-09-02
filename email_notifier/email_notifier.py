@@ -3,9 +3,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Email configuration
-sender_email = 'parkalfredojeonghyun@gmail.com'
-receiver_email = 'parkalfredojeonghyun@gmail.com'
-password = 'ohecjeotduhehhcz'
+sender_email = 'sender_email@gmail.com'
+receiver_email = 'sender_email@gmail.com'
+password = 'password'
 
 def send_email_notification(message_text, subject):
     message = MIMEMultipart()
