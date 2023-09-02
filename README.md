@@ -13,11 +13,11 @@ Then we must add our Gmail credentials in `email_notifier.py`, modifying `sender
 In `password` we need to add an App password provided by Google, we can get this password by:
 
 1. Going to the desired or personal [Google Account](https://myaccount.google.com/).
-2. Select Security
-3. Under "Signing in to Google", select _2-Step Verification_
-4. At the bottom of the page, select _App passwords_
-5. In _Select app_ choose _Other_, then type a name we can remember.
-6. Press _Generate_
+2. Select **Security**.
+3. Under "Signing in to Google", select **2-Step Verification**.
+4. At the bottom of the page, select **App passwords**
+5. In **Select app** choose **Other**, then type a name we can remember.
+6. Press **Generate**
 7. An app password will be shown to us, it will not be shown to us again therefore it must be saved in a safe place.
 8. With this password, we can replace it in the `password` variable in `email_notifier.py`
 
